@@ -1,0 +1,33 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://www.charleskeith.com/on/demandware.static/-/Library-Sites-CharlesKeith/default/dw670dbcab/images/homepage/2023/charles-keith-home-s-zootopia-week-21-1920x700.jpg);
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://www.charleskeith.com/on/demandware.static/-/Library-Sites-CharlesKeith/default/dwe23625ec/images/Muse/Summer23/summer23-campaign/charles-keith-summer-23-campaign-the-edit-banner-desktop.jpg);
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://file.hstatic.net/1000284478/article/ck-csmall_a5e35bf1d3e94c02b9b99ef673352ca0.jpeg);
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
+}
+
+/* #myCarousel {
+  height: 40vh;
+  width: 100%;
+} */
+
+.carousel-item {
+  height: 40vh;
+  width: 100%;
+}
